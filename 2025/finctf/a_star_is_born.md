@@ -77,6 +77,8 @@ Sauf que...
 Il existe un langage de programmation qui se nomme _rockstar_ (https://codewithrockstar.com/).
 Sur leur site on peut exécuter directement du code. Or, si on y met les paroles on obtiens un résultat !!
 
+*Note*: Si on veux exécuter avec le binaire de *rockstar*, nous devons renommer notre fichier de paroles en .rock
+
 ```bash
 finctf@a_star_is_born$ rockstar ./lyric.rock | tr '\n' ' '
 100 114 103 110 123 121 48 117 114 101 95 116 104 51 95 114 48 99 107 115 116 97 114 125
