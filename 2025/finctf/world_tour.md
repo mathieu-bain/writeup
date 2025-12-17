@@ -40,7 +40,7 @@ On remarque qu'il y a 2 fonctions qui sont définies:
 Ensuite, chaque ville est une variable qui contient un nombre (voir la définition de *poetic number* dans la doc).
 Cette variables sont ajoutées au tableau **my tour**
 
-#### La fonction My bus
+#### <ins>La fonction My bus</ins>
 Cette fonction semble faire appel à la fonction **Risen** à cause de la ligne suivante:
 ```
 Let their hands be risen taking people, ice
@@ -59,7 +59,7 @@ Shatter fuel into molecule
 La fonction **Shatter** permet en réalité de séparer une string en un tableau de caractères.
 Donc par déduction, **my tour** serait passé en paramètre pour **cocaine**
 
-#### Ajout de nouvelles paroles
+#### <ins>Ajout de nouvelles paroles</ins>
 Aussi, la 2e ligne correspond à une variable (**my plan**) venant de l'input, donc probablement une string.
 ```
 Listen to my plan
@@ -70,7 +70,7 @@ Donc on peut tenter d'ajouter un appel à la fonction **my bus** avec ces inform
 Shout my bus taking my plan, my tour
 ```
 
-#### Test
+#### <ins>Test</ins>
 On va essayer de voir ce que ça donne
 
 ```bash
@@ -99,7 +99,7 @@ finctf@world_tour$ xxd ./chal.mp3 | tail -n 5
 003bc670: 5354 3452 5230 434b 0a                   ST4RR0CK.
 ```
 
-On voit **Key:ST4RR0CK**
+On voit _Key:ST4RR0CK_
 
 Si on essaie avec notre fichier rockstar:
 ```bash
