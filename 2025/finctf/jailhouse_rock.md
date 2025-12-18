@@ -98,4 +98,4 @@ L'objectif est donc d'écrire un code rockstar qui va faire la procédure de dé
 à venir...
 
 ## Flag
-On obtient au final le flag: **drgn{l3ts_s1gn_4_c0ntr4ct!!}**
+On obtient au final le flag: **drgn{}**
