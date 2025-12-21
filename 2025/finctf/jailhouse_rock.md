@@ -95,7 +95,52 @@ Enfin, le script génère aléatoirement une clé et la chiffre avec cette metho
 L'objectif est donc d'écrire un code rockstar qui va faire la procédure de déchiffrement (le script à la fin compare le résultat obtenu avec la clé générée).
 
 ### Le code Rockstar
-à venir...
+Le code que j'ai utilisé
+```
+My fan is my grand mother
+One is I
 
+Transform takes letter, index
+Let number be letter
+Burn it
+It is without index
+It is without One
+If it is weaker than silence
+It is with my fan, yeah
+Burn it with letter
+Give back number
+
+Decrypt takes my key
+Let my solution be my key
+Turn it around
+Split my solution into reverse
+Rock my decryption
+For letter and index in reverse
+Let new be transform taking letter, index
+Rock my decryption with new
+Yeah
+Join my decryption
+Give back my decryption
+
+$$END$$
+```
+
+La réponse du serveur
+```bash
+          YOU DID IT
+     _____________________
+    |  _________________  |
+    | |    _________    | |
+    | |   |         |   | |
+    | |   |   __    |   | |
+    | |   |  |__|   |   | |
+    | |   |_________|   | |
+    | |                 | |
+    | |                 | |
+    | |_________________| |
+    |_____________________|
+$b'FINCTF{r0ck3d_y0ur_w4y_t0_fr33d0m_w1th_5tyl3}'
+    
+```
 ## Flag
-On obtient au final le flag: **drgn{}**
+On obtient au final le flag: **FINCTF{r0ck3d_y0ur_w4y_t0_fr33d0m_w1th_5tyl3}**
